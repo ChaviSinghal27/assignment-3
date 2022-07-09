@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+SA+Beginner&family=Shadows+Into+Light&family=Source+Sans+Pro:wght@400;600&display=swap');
+
+body {
+    font-family: 'Edu SA Beginner', cursive;
+font-family: 'Shadows Into Light', cursive;
+font-family: 'Source Sans Pro', sans-serif;
+}
+
+:root {
+    --primary-color:#fbbf24;
+}
+
+.header {
+    background-color:var(--primary-color);
+    display: block;
+    height: 8vh;
+    padding: 1rem 0rem;
+    margin: 0px;
+}
+
+.header h1 {
+    text-align: center;
+}
+
+#btn-translate {
+    background-color: var(--primary-color);
+    padding: 1rem 1rem;
+    font-size: large;
+    margin: 1rem;
+}
+
+.translation {
+    font-size: large;
+    margin-left: 1rem;
+}
+
+
+
+#output{
+    display: block;
+    border: 1px solid black;
+    width: 80%;
+    height: 10vh;
+    margin: 1rem;
+    padding: 1rem;
+}
+textarea {
+    display: block;
+    width: 80%;
+    height: 10vh;
+    margin: 1rem;
+    padding: 1rem;
+}
+
+.footer {
+    background-color: var(--primary-color);
+    padding: 1rem 1rem;
+    text-align: center;
+}
+
+
+
+
+
+
